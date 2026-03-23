@@ -1,0 +1,101 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+.yarn-state.yml
+.pnp.*
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+.netlify/
+coverage/
+.turbo/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.egg-info/
+*.egg
+build/
+dist/
+.coverage
+coverage.xml
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Course task data (keep locally — see *.example.json / sendit-mission.example.txt)
+solutions/01-people/filtered_people.json
+solutions/02-findhim/findhim_locations.json
+solutions/04-sendit/trasy-wylaczone.png
+solutions/04-sendit/sendit-mission.local.txt
+**/sendit-mission.txt
+
+# Electricity: hub snapshots + local target image (course content)
+solutions/07-electricity/artifacts/
+solutions/07-electricity/*.local.png
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS / temp
+tmp/
+temp/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+

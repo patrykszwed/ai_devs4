@@ -1,0 +1,53 @@
+:root {
+  --bg-deep: #0a0e17;
+  --bg-panel: #0f1629;
+  --bg-card: #141c2e;
+  --border: #1e2a45;
+  --accent: #00d4aa;
+  --accent-dim: #00a884;
+  --accent-glow: rgba(0, 212, 170, 0.25);
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --danger: #f43f5e;
+  --danger-glow: rgba(244, 63, 94, 0.2);
+  --font-display: "Orbitron", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text);
+  background: var(--bg-deep);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, var(--accent-glow), transparent),
+    linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-panel) 100%);
+  background-size: 100% 100%, 100% 100%;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(ellipse 90% 60% at 50% -10%, var(--accent-glow), transparent 50%);
+  animation: bg-glow 6s ease-in-out infinite;
+}
+
+@keyframes bg-glow {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.5; }
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}

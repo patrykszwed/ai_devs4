@@ -1,0 +1,12 @@
+{
+  "power_plants": {
+    "ExampleCity": {
+      "is_active": true,
+      "power": "10 MW",
+      "code": "PWR0000PL"
+    }
+  },
+  "city_coordinates": {
+    "ExampleCity": { "lat": 52.23, "lng": 21.01 }
+  }
+}

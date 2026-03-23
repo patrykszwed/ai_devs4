@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Jan",
+    "surname": "Kowalski",
+    "gender": "M",
+    "born": 1990,
+    "city": "ExampleCity",
+    "tags": ["transport"]
+  }
+]

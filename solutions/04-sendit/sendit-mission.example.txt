@@ -1,0 +1,4 @@
+# Zastąp tym plikiem własny brief misji z materiałów kursu (lub skopiuj treść tutaj i zapisz jako np. sendit-mission.local.txt).
+# Ustaw SENDIT_INITIAL_INPUT_FILE=/ścieżka/do/tego/pliku
+
+[Opisz tutaj po polsku cele agenta: jakie ma dane wejściowe, jakiej trasy dotyczy zadanie, jakie są wymagania biznesowe — zgodnie z prywatną treścią zadania sendit.]

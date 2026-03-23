@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "../../../../hub-paths.js": ["../../hub-paths.d.ts"],
+      "../../hub-paths.js": ["../../hub-paths.d.ts"]
+    }
+  },
+  "include": ["./**/*.ts"]
+}
+

@@ -14,7 +14,7 @@ This project contains solutions to tasks solved during AI_devs 4.
 Dashboard app is a web application that allows you to run, monitor and debug any task submission.
 
 The dashboard:
-<img width="2540" height="1232" alt="image" src="https://github.com/user-attachments/assets/de70b0f0-a048-4216-a2b8-a2c618d95620" />
+<img width="2540" height="1232" alt="image" src="https://github.com/user-attachments/assets/124eeb3e-b511-4c48-b46e-d46aa68d0887" />
 
 Debugger tool:
-<img width="2540" height="1230" alt="image" src="https://github.com/user-attachments/assets/1e2dbd6c-4965-4b01-8d88-11cb92adab8f" />
+<img width="2540" height="1230" alt="image" src="https://github.com/user-attachments/assets/9e42aeeb-0f8b-4231-ad2a-a1c95023cec7" />
